@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva Hora</title>
+</head>
+<body>
+    <h1>RESERVA HORA MEDICA</h1>
+    <form action="redirige_gracias.html" method="get">
+        <label for="nombre">NOMBRE</label><br>
+        <input type="text" name="nombre"><br><br>
+        <label for="direccion">DIRECCIÓN</label><br>
+        <input type="text" name="nombre"><br><br>
+        <label for="especialidad">ESPECIALIDAD MEDICA</label><br>
+        <select name="especialidad" id="especialidad">
+        <option value="medicina interna">MEDICINA INTERNA</option>
+        <option value="medicina general">MEDICINA GENERAL</option>
+        <option value="traumatologia">TRAUMATOLOGIA</option>
+        <option value="nutricionista">NUTRICIONISTA</option>
+        </select><br><br>
+        <label for="fecha">FECHA</label><br>
+        <input type="date" name="fecha"><br><br>
+        <label for="hora">HORA</label><br>
+        <input type="time"><br><br>
+        <label for="correo">CORREO</label><br>
+        <input type="email" name="correo" required><br><br>
+        <button>CONFIRMAR</button>
+    </form>
+</body>
+</html>
