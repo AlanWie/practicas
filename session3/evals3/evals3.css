@@ -1,0 +1,20 @@
+.primary-btn{
+    border: 0;
+    color: #fff;
+    background-color: #3498db;
+}
+.secondary-btn{
+    border: 0;
+    color: white;
+    background-color: #2ecc71;
+}
+.success-btn{
+    border: 0;
+    color: white;
+    background-color: #27ae60;
+}
+.danger-btn{
+    border: 0;
+    color: white;
+    background-color: #e74c3c;
+}

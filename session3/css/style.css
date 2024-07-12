@@ -1,0 +1,34 @@
+/*estilo con link*/
+table {
+    width: 100%;
+  }
+header{background:black;
+}
+section{
+    background: rgb(12, 11, 11);
+}
+
+h1{
+    color:darkblue;
+    font-size: 70px;
+    text-align: center;
+}
+h2{
+    color:rgb(203, 234, 238);
+    font-size: 50px;
+}
+h3{
+    color:hsla(240, 29%, 73%, 0.651);
+    font-size: 40px;
+}
+img{
+    width: 150px;
+}
+table{
+    background-color: #020d30;
+    margin: auto;
+}
+footer{
+    color: rgba(63, 71, 33, 0.55);
+}
+/*agregar dos secciones o mas, usar color tipo rgb, rgba , hsl  y hexadecimal*/
